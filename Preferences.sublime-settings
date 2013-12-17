@@ -1,0 +1,33 @@
+{
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Tron.tmTheme",
+	"create_window_at_startup": false,
+	"font_size": 13.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"scroll_past_end": false,
+	"trim_trailing_white_space_on_save": true,
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "node_modules",
+        "FlashVideoPlayer",
+        "videoplayer"
+    ],
+    "file_exclude_patterns":
+    [
+    	".DS_Store",
+        "Desktop.ini",
+        "*.pyc",
+        "._*",
+        "Thumbs.db",
+        ".Spotlight-V100",
+        ".Trashes",
+    	"codekit-config.json",
+    	"*.swf",
+    	"*.fla"
+    ]
+}
