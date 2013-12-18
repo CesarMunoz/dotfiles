@@ -1,0 +1,22 @@
+[user]
+	name = CesarMunoz
+	email = cesar.t.munoz@gmail.com
+[credential]
+	helper = osxkeychain
+[diff]
+    tool = subl
+[alias]
+	tree = log --oneline --decorate --all --graph --simplify-by-decoration
+	st = status
+	cho = checkout
+	chb = checkout -b
+	po = push origin
+	cam = commit -a -m
+	history = --all --date -order $(git reflog --pretty=%H)
+	br = branch
+[push]
+	default = current
+[core]
+	editor = subl -n -w
+[merge]
+	tool = subl
