@@ -2,6 +2,33 @@
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Tron.tmTheme",
 	"create_window_at_startup": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"Desktop.ini",
+		"*.pyc",
+		"._*",
+		"Thumbs.db",
+		".Spotlight-V100",
+		".Trashes",
+		"codekit-config.json",
+		"*.swf",
+		"*.fla",
+		"*.png",
+		"*.gif",
+		"*.jpg",
+		"*.psd",
+		"*.ico",
+		"*.zip"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules",
+		"FlashVideoPlayer",
+		"videoplayer"
+	],
 	"font_size": 13.0,
 	"ignored_packages":
 	[
@@ -9,25 +36,5 @@
 	],
 	"open_files_in_new_window": false,
 	"scroll_past_end": false,
-	"trim_trailing_white_space_on_save": true,
-    "folder_exclude_patterns":
-    [
-        ".git",
-        "node_modules",
-        "FlashVideoPlayer",
-        "videoplayer"
-    ],
-    "file_exclude_patterns":
-    [
-    	".DS_Store",
-        "Desktop.ini",
-        "*.pyc",
-        "._*",
-        "Thumbs.db",
-        ".Spotlight-V100",
-        ".Trashes",
-    	"codekit-config.json",
-    	"*.swf",
-    	"*.fla"
-    ]
+	"trim_trailing_white_space_on_save": true
 }
