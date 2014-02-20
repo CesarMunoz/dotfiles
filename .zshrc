@@ -42,14 +42,14 @@ DISABLE_CORRECTION="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(gitfast git-extras svn jira brew)
+plugins=(gitfast git-extras svn jira brew osx)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/cmunoz/bin
 
-alias reweb='sudo apachectl -k restart'
+alias rew='sudo apachectl -k restart'
 alias sleep='sudo shutdown -s now'
 alias saver='sudo open -a /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app'
 alias g='git'
@@ -60,6 +60,7 @@ alias gs='git status'
 alias ga='git add -A'
 alias gch='git checkout'
 alias gchb='git checkout -b'
+alias gcht='git checkout --track'
 alias gcom='git commit -a'
 alias gr='grunt'
 alias grd='grunt dist'
@@ -67,8 +68,9 @@ alias grw='grunt watch'
 alias oj='jira'
 alias ..="cd .."
 alias ...="cd ../.."
-alias la="ls -laF ${colorflag}"
+alias la="ls -laF -C"
 alias npmi="sudo npm install"
 alias conf="subl /private/etc/apache2/httpd.conf"
 alias zshrc="subl ~/.zshrc"
+alias devreset="ssh 206.16.122.76"
 
