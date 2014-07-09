@@ -76,4 +76,5 @@ alias npmi="sudo npm install"
 alias conf="subl /private/etc/apache2/httpd.conf"
 alias zshrc="subl ~/.zshrc"
 alias devreset="ssh 206.16.122.76"
-
+alias devsync="rsync -azP /LocalProjects/git/Static-Page/publish/ cmunoz@206.16.122.76:/export/IBM/IHS/web/us/201407/rstest2"
+alias 777="chmod -R 777 /LocalProjects/git/Static-Page/publish/."
